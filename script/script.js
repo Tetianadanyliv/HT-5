@@ -57,7 +57,7 @@ function countPositiveNumbers(num) {
 console.log(countPositiveNumbers(numbers));
 
 
-// Створіть функцію яка відфільтрує усі елементи в масиві та залишить тільки ті, які діляться на ціло на 5
+// Створіть функцію яка відфільтрує усі елементи в масиві та залишить тільки ті, які діляться на ціло на 5.
 
 const getDividedByFive = [6, 2, 55, 11, 78, 2, 55, 77, 57, 87, 23, 2, 56, 3, 2];
 function getDividedNumber(num) {
