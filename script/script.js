@@ -10,13 +10,11 @@ function getRandomArray(lengths, min, max) {
 }
 console.log(getRandomArray(15, 1, 100));
 
-
 // Створіть функцію яка рахує середнє арифметичне
 
 const arr = [2, 55, 11, 78, 2, 55, 77, 57, 87, 23, 2, 56, 3, 2];
 const getAverage = (arr.reduce((a, b) => a + b, 0) / arr.length).toFixed(0);
 console.log(getAverage);
-
 
 // Створіть функцію яка рахує медіану всіх переданих в неї аргументів.
 
@@ -29,7 +27,6 @@ function getMedian(numbers) {
   return sortNum[middle];
 }
 console.log(getMedian([6, 2, 55, 11, 78, 2, 55, 77, 57, 87, 23, 2, 56, 3, 2]));
-
 
 // Створіть функцію яка фільтрує парні числа передані як аргументи функції.
 
@@ -44,7 +41,6 @@ function filterEvenNumbers(num) {
 }
 console.log(evenNumb.filter(filterEvenNumbers));
 
-
 // Створіть функцію яка порахує кількість чисел
 
 const numbers = [1, -2, 3, -4, -5, 6];
@@ -55,7 +51,6 @@ function countPositiveNumbers(num) {
   }
 }
 console.log(countPositiveNumbers(numbers));
-
 
 // Створіть функцію яка відфільтрує усі елементи в масиві та залишить тільки ті, які діляться на ціло на 5.
 
