@@ -41,14 +41,16 @@ function filterEvenNumbers(num) {
 }
 console.log(evenNumb.filter(filterEvenNumbers));
 
+
+
 // Створіть функцію яка порахує кількість чисел
 
-const numbers = [1, -2, 3, -4, -5, 6];
+const numbers = [1, -2, 3, -4, -5, 6, true];
 function countPositiveNumbers(num) {
-  const countNumber = numbers.filter((item) => item > 0).length;
-  {
-    return countNumber;
-  }
+  const countNumber = numbers.filter(
+    (item) => Number.isInteger(item) && item > 0
+  ).length;
+  return countNumber;
 }
 console.log(countPositiveNumbers(numbers));
 
